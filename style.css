@@ -75,7 +75,7 @@ figcaption {
 button{
     background-color: #3882f6;
     padding: 5px 30px;
-    color: #e5e7eb;
+    color: #f9faf8;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: none;
@@ -140,4 +140,27 @@ h2{
 
 .bold{
     font-weight: bold;
+}
+
+#action{
+    display: flex;
+    justify-content: center;
+}
+
+.action-content{
+    background-color: #3882f6;
+    padding: 40px;
+    margin: 32px 0;
+    display: flex;
+    gap: 30px;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 70%;
+}
+
+.action-content button{
+    flex-shrink: 0;
+    border: #f9faf8 solid 2px;
+    height: 60%;
+    align-self: center;
 }
