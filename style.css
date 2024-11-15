@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*CSS for header */
 header{
     background-color: #1f2937;
     display: flex;
@@ -76,4 +82,33 @@ button{
     border: none;
     font-size: 18px;
     font-weight: bold;
+}
+
+/*CSS for content*/
+#content{
+    flex: 1;
+}
+
+h2{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.gallery-cards{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 64px;
+}
+
+.card{
+    width: 250px;
+}
+
+.card img{
+    width: inherit;
+    height: auto;
 }
