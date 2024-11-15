@@ -164,3 +164,12 @@ h2{
     height: 60%;
     align-self: center;
 }
+
+/*CSS for footer*/
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 20px 0 30px;
+}
